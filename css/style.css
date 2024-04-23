@@ -228,13 +228,11 @@ width: 100%;
 .containterpostventa{
     flex: 1;
     background-color: rgb(56, 56, 56);
-    background-color: rgb(56, 56, 56);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
-    /* background-color: rgb(10, 10, 10); */
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../images/fondopostventa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,7 +258,7 @@ border: 2px solid rgb(160, 64, 64)
     padding: 20px;
     font-family: "opensans",Arial, Helvetica, sans-serif;
     flex: 1; 
-    width: 50%;
+    width: 100%;
     color: white;
 }
 
@@ -268,22 +266,11 @@ border: 2px solid rgb(160, 64, 64)
     margin: 10px;
     max-width: 700px;
 }
-.formulario{
-    .container {
-        max-width: 600px;
-        margin: 20px auto;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h2 {
-        margin-top: 0;
-    }
-    label {
+/* Estilos del formulario */
+label {
         display: block;
         margin-bottom: 5px;
-    }
+}
     input[type="text"],
     input[type="email"],
     textarea {
@@ -309,7 +296,7 @@ border: 2px solid rgb(160, 64, 64)
     input[type="submit"]:hover {
         background-color: #45a049;
     }
-}
+
 .formulario label{
     color: white;
     
@@ -409,6 +396,7 @@ footer{
     }
     
     }
+
 
 
 
